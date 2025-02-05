@@ -16,6 +16,9 @@ import ListePortefeuille from "@/components/Tables/ListePortefeuille.vue";
 import AnalyseCommission from "@/components/Tables/AnalyseCommission.vue";
 import Analyse from "@/components/Tables/Analyse.vue";
 import Filtre from "@/components/Tables/Filtre.vue";
+import Modification from "@/components/Tables/Modification.vue";
+import ResultatAnalyse from "@/components/Tables/ResultatAnalyse.vue";
+import Historique from "@/components/Tables/Historique.vue";
 const routes = [
   {
     path: "/",
@@ -123,6 +126,21 @@ const routes = [
         name: 'Filtre ',
         component: Filtre,
       },
+
+      {
+        path: '/modification',
+        name: 'Modification',
+        component: Modification,
+      },
+
+      
+      {
+        path: '/historique',
+        name: 'Historique',
+        component: Historique,
+      },
+
+    
 
     ],
   },
